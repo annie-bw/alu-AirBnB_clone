@@ -1,0 +1,20 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Swap files (Vim/Vi)
+*.swp
+*.swo
+*~
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+file.json
