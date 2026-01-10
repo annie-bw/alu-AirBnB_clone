@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-"""Initialize tests package"""
+"""Initialize test_engine package"""
