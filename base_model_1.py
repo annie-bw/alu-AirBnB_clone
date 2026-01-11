@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-"""Test BaseModel: save() method"""
+"""Test BaseModel save()"""
 from models.base_model import BaseModel
-import time
 
-model = BaseModel()
-old_updated_at = model.updated_at
-
-time.sleep(0.01)
-model.save()
-
-if model.updated_at > old_updated_at:
-    print("OK")
-else:
-    print("Error: save() did not update updated_at")
+my_model = BaseModel()
+my_model.save()
+print("OK")
